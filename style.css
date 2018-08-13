@@ -1,0 +1,116 @@
+#container{
+	border: solid 3px rgb(211 211 211);
+}
+
+#header{
+	background: rgb(61 79 91);
+	height: 50px;
+	text-align: center;
+	color: white;
+	font-family: calibri;
+	line-height: 160%;
+	font-size: 30px;
+}
+
+#body{
+	display: flex;
+}
+
+#left-side{
+	width: 25%;
+	background: linear-gradient(to right, rgb(66 66 66), rgb(111 111 111));
+}
+
+#right-side{
+	width: 75%;
+}
+
+.img{
+	width: 150px;
+	height: 150px;
+	border-radius: 35%;
+	border: solid 3px rgb(211 211 211);
+
+	display: block;
+	margin: 5% auto;
+}
+
+.header-text{
+	vertical-align: middle;
+}
+
+.title-text{
+	color: rgb(8 75 138);
+	font-weight: bold;
+	font-family: calibri;
+}
+
+p{
+	color: rgb(8 75 138);
+	font-family: calibri;
+	margin: 0%;
+}
+
+.left-side-div{
+	color: white;
+	font-family: calibri;
+	font-size: 28px;
+	
+}
+
+.right-side-div{
+	border-bottom: solid 2px rgb(0 128 255);
+	margin: 1%;
+	padding-bottom: 0.5%;
+}
+
+.left-side-p{
+	color: white;
+	font-family: calibri;
+	font-size: 22px;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.left-menu-items{ 
+	border-radius: 5px;
+	margin: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	font-family: calibri;	
+}
+
+#left-menu-item1{
+	background-color: rgb(255 165 0);
+	width: 70%;
+}
+
+#left-menu-item2{
+	background-color: rgb(1 116 223); 
+	width: 50%;
+}
+
+#left-menu-item3{
+	background-color: rgb(0 128 0); 
+	width: 90%;
+}
+
+li{
+	color: white;
+	margin-left: 5%;
+}
+
+a{
+	color: rgb(0 178 222);
+}
+
+#name-div{
+	border-bottom: solid 3px rgb(255 255 0);
+	margin-left: 5%;
+	margin-right: 5%;
+}
